@@ -32,7 +32,7 @@ window.onload = function () {
   scene.add(mesh);
   mesh = new THREE.Object3D(); // ???
   mesh.rotation.y = Math.PI / 2;
-  // mesh.rotation.order = "XYZ";
+  mesh.rotation.order = "YXZ";
 
   // var clock = new THREE.Clock();
   // var elapsedTime = 0;
