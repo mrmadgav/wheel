@@ -30,7 +30,7 @@ window.onload = function () {
   // Меш
   let mesh = new THREE.Mesh(geometry, material);
   scene.add(mesh);
-  mesh = new THREE.Object3D();
+  mesh = new THREE.Object3D(); // ???
   mesh.rotation.y = Math.PI / 2;
   // mesh.rotation.order = "XYZ";
 
